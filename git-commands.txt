@@ -1,0 +1,14 @@
+Create repo on the github
+copy the https url
+select a directory in which you would loike to create a repo.
+right click and open git bash
+now type the following commands:
+
+> git clone 'copied url'. 
+Repo will be cloned in the current repo. cd the directiory to the newly cloned repo or folder.
+Add the new files or modify existing files. then check if there is anything that needs to be tracked or committed.
+> git status
+> git add . // adds all modified and newly created files.
+> git add 'filename' // adds only specific file.
+> git commit -m 'commit-message'
+> git push -u origin master
